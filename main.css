@@ -2,7 +2,7 @@
 
 :root {
   --color-dark-grey: #313335;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-white: #f7f9f9;
   --color-purple: #8e7cc3;
   --color-grey: #d6d6d6;
 }
@@ -92,6 +92,7 @@ button {
 .header {
   padding: 0 0.625rem;
   margin-bottom: 1.875rem;
+  color: var(--color-white);
 }
 
 .description {
@@ -120,8 +121,7 @@ form {
   -webkit-box-shadow: -1px 0px 8px 0px rgba(0,0,0,0.62);
   -moz-box-shadow: -1px 0px 8px 0px rgba(0,0,0,0.62);
   box-shadow: -1px 0px 8px 0px rgba(0,0,0,0.62);
-  left: 30%;
-  color: var(--dark-grey);
+  left: 50%;
 }
 
 @media (min-width: 480px) {
@@ -133,6 +133,7 @@ form {
 .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
+  color: var(--dark-grey);
 }
 
 .form-control {
