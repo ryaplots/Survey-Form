@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Antic', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.4;
   margin: 0;
@@ -110,8 +110,6 @@ button {
 .text-center {
   text-align: center;
 }
-
-/* form */
 
 form {
   position: absolute;
